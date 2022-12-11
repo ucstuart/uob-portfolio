@@ -6,37 +6,152 @@
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+/* CSS Variables */
+
+:root 
+  {
+    --portfolioblue: #000000;
+    --portfoliopurple: #ffffff;
+    --portfoliopink: #ffffff;
+    --portfoliogrey: rgba(205,205,205, 0.75);
+    --portfoliotext: #000000;
+  }
+
+/* Webpage Styles */
+
+body
+  {
+    color: var(--portfoliotext);
+    margin: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
     line-height: 1.5;
+    padding: 0px;
   }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+
+p 
+  {
     margin: 0;
   }
-  
-  p {
+
+h1 
+  {
+    font-size: 1.7em;
+    font-weight: bolder;
+    text-align: center;
     margin: 0;
   }
+
+h2 
+  {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+  }
+
+h3
+  {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+  }
+
+h4
+  {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+  }
+
+/* Footer */
+
+h5
+  {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+  }
+
+/* Footer Credits */
+
+h6
+  {
+
+    font-size: .75em;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+  }
+
+
 
 /* About Me Section */
 
-  .profile-image {
+.profile-image 
+  {
     margin: auto;
     max-width: 125px;
     max-height: 125px;
   }
 
+/* Portfolio Section */
+
+#layout-grid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 75px;
+    grid-template-areas: 
+        "Port1 Port1 Port1 Port1"
+        "Port2 Port3 Port4 Port5"
+        "Port6 Port7 Port8 Port9"
+    ;
+}
+
+.Portfolio
+{
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: stretch;
+  
+}
+
+.Portfolio p
+{
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    background-color: var(--portfoliogrey);
+    
+}
+
+/* Images for Projects */
+
+#Port1 {
+    grid-area: Port1;
+    background-image: url("/assetts/images/02-portfolio-3.jpg");
+}
+
+#Port2
+{
+    grid-area: Port2;
+    background-image: url("/assetts/images/02-portfolio-2.jpg");
+}
+
 /* Social Network Section */
 
-  #social img {
+#social img 
+  {
     margin: 15px 35px;
     max-height: 50px;
     max-width: 50px;
