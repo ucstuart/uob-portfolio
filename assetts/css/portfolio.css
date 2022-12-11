@@ -26,6 +26,14 @@
     margin: 0;
   }
 
+/* About Me Section */
+
+  .profile-image {
+    margin: auto;
+    max-width: 125px;
+    max-height: 125px;
+  }
+
 /* Social Network Section */
 
   #social img {
