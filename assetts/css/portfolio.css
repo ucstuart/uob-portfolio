@@ -20,10 +20,15 @@
 
 /* Webpage Styles */
 
+main
+{
+  margin: 75px;
+}
+
+
 body
   {
     color: var(--portfoliotext);
-    margin: 200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     line-height: 1.5;
@@ -90,7 +95,24 @@ h6
     margin: 0;
   }
 
+/* Nav Secton */
 
+nav
+{
+  background-color: var(--portfolioblue);
+}
+
+nav ul
+{
+  text-align: center;
+}
+
+nav ul li
+{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+}
 
 /* About Me Section */
 
@@ -128,9 +150,15 @@ h6
   
 }
 
+/* The p was a child of a therefore the width should be here */
+
+.Portfolio a
+{
+  width: 100%;
+}
+
 .Portfolio p
 {
-    width: 100%;
     text-align: left;
     margin: 0;
     /* display: inline-block; */
@@ -143,55 +171,60 @@ h6
 
 /* Images for Projects */
 
-#Port1 {
+/* #Port1 {
     grid-area: Port1;
     background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-1.jpg");
+} */
+
+#Port1 {
+  grid-area: Port1;
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 
 #Port2
 {
     grid-area: Port2;
-    background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-2.jpg");
+    background-image: url("../images/02-portfolio-2.jpg");
 }
 
 #Port3
 {
     grid-area: Port3;
-    background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-3.jpg");
+    background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #Port4
 {
     grid-area: Port4;
-    background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-4.jpg");
+    background-image: url("../images/02-portfolio-4.jpg");
 }
 
 #Port5 {
   grid-area: Port5;
-  background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 
 #Port6
 {
     grid-area: Port6;
-    background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-2.jpg");
+    background-image: url("../images/02-portfolio-2.jpg");
 }
 
 #Port7
 {
     grid-area: Port7;
-    background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-3.jpg");
+    background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #Port8
 {
     grid-area: Port8;
-    background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-4.jpg");
+    background-image: url("../images/02-portfolio-4.jpg");
 }
 
 #Port9 {
   grid-area: Port9;
-  background-image: url("https://ucstuart.github.io/uob-portfolio/assetts/images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 
 
@@ -203,3 +236,20 @@ h6
     max-height: 50px;
     max-width: 50px;
   }
+
+#social h3
+{
+  text-align: center;
+}
+
+#social ul
+{
+  text-align: center;
+}
+
+#social ul li
+{
+  
+  list-style-type: none;
+  display: inline-block;
+}
