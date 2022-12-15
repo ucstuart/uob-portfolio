@@ -8,6 +8,6 @@ This project showcases Stuart's career to date, and some project that he has bee
 
 ## Image of the Project
 
-<a href="./assetts/images/portfolio.PNG" title="Project Image" alt="Project Image">
+<img src="./assetts/images/project.png" title="Project Image" alt="Project Image">
 
 
