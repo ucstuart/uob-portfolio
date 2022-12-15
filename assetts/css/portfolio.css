@@ -14,7 +14,7 @@
     --portfolioblue: #041592;
     --portfoliopurple: #831587;
     --portfoliopink: #ff0385;
-    --portfoliogrey: rgba(205, 205, 205, 0.576);
+    --portfoliogrey: rgba(205, 205, 205, 0.798);
     --portfoliocyan: #00ffff;
     --portfoliotext: #0c0c0cce;
   }
@@ -167,6 +167,9 @@ nav li
     background-repeat: no-repeat;
     background-size: cover;
     /* justify-self: stretch; */
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
   
 }
 
@@ -194,53 +197,53 @@ nav li
 
 #Port1 {
   grid-area: Port1;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/ucreseller.PNG");
 }
 
 #Port2
 {
     grid-area: Port2;
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("../images/refactor.PNG");
 }
 
 #Port3
 {
     grid-area: Port3;
-    background-image: url("../images/02-portfolio-3.jpg");
+    background-image: url("../images/portfolio.PNG");
 }
 
 #Port4
 {
     grid-area: Port4;
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("../images/evantoelements/bird1.jpg");
 }
 
 #Port5 {
   grid-area: Port5;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/evantoelements/dev1.jpg");
 }
 
 #Port6
 {
     grid-area: Port6;
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("../images/evantoelements/bird2.jpg");
 }
 
 #Port7
 {
     grid-area: Port7;
-    background-image: url("../images/02-portfolio-3.jpg");
+    background-image: url("../images/evantoelements/dev2.jpg");
 }
 
 #Port8
 {
     grid-area: Port8;
-    background-image: url("../images/02-portfolio-4.jpg");
+    background-image: url("../images/evantoelements/bird3.jpg");
 }
 
 #Port9 {
   grid-area: Port9;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/evantoelements/dev3.jpg");
 }
 
 /* Contact Me Section */
