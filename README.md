@@ -10,12 +10,6 @@ This project showcases Stuart's career to date, and some project that he has bee
 
 <img src="./assetts/images/project.png" title="Project Image" alt="Project Image">
 
-```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+
 
 
